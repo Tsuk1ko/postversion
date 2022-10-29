@@ -4,12 +4,23 @@
   "main": "index.js",
   "author": "神代綺凛 <i@loli.best>",
   "license": "MIT",
+  "scripts": {
+    "postversion": "node index.js"
+  },
   "files": [
     "index.js"
   ],
   "bin": {
     "tpv": "index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tsuk1ko/postversion.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Tsuk1ko/postversion/issues"
+  },
+  "homepage": "https://github.com/Tsuk1ko/postversion#readme",
   "dependencies": {
     "yesno": "^0.4.0"
   }
