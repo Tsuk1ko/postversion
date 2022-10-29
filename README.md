@@ -32,4 +32,4 @@ When you run [`npm version`](https://docs.npmjs.com/cli/version/) and confirm, c
 
 ### Notice
 
-This script won't run `npm publish`. It is designed for publish package with GitHub Actions.
+This script won't run `npm publish`. It is designed for publishing package with GitHub Actions.
